@@ -78,3 +78,8 @@ footer {
 button {
   min-width: 130px;
 }
+.seo-content {
+  background: #f9f9f9;
+  border-top: 1px solid #ddd;
+  padding: 20px;
+}
