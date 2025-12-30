@@ -63,3 +63,18 @@ footer {
   font-size: 13px;
   margin-right: 12px;
 }
+.spacer {
+  height: 20px;
+}
+
+.options {
+  margin-top: 25px;
+}
+
+.button-row {
+  margin-top: 30px;
+}
+
+button {
+  min-width: 130px;
+}
