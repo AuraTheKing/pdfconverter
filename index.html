@@ -32,7 +32,29 @@
         <option value="portrait">Portrait</option>
         <option value="landscape">Landscape</option>
       </select>
+<div class="section">
+  <h3>Image to PDF Options</h3>
 
+  <label>Orientation:</label><br>
+  <label><input type="radio" name="orientation" value="portrait" checked> Portrait</label>
+  <label><input type="radio" name="orientation" value="landscape"> Landscape</label>
+
+  <br><br>
+
+  <label>Page Size:</label><br>
+  <select id="pageSize">
+    <option value="a4">A4 (297×210 mm)</option>
+    <option value="letter">Letter (8.5×11 in)</option>
+  </select>
+
+  <br><br>
+
+  <label>Margin:</label><br>
+  <label><input type="radio" name="margin" value="0" checked> No margin</label>
+  <label><input type="radio" name="margin" value="20"> Small</label>
+  <label><input type="radio" name="margin" value="40"> Big</label>
+</div>
+      
       <button id="previewBtn">Preview PDF</button>
       <button id="convertBtn">Download PDF</button>
     </section>
