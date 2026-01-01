@@ -83,3 +83,99 @@ button {
   border-top: 1px solid #ddd;
   padding: 20px;
 }
+/* ================================
+   Article / Content Pages Styling
+================================ */
+
+.content {
+  max-width: 820px;
+  margin: 40px auto;
+  padding: 0 20px;
+  font-family: Georgia, "Times New Roman", serif;
+  color: #111;
+  line-height: 1.7;
+}
+
+/* Headings */
+.content h1 {
+  font-size: 34px;
+  margin-bottom: 18px;
+  letter-spacing: -0.5px;
+}
+
+.content h2 {
+  font-size: 24px;
+  margin-top: 36px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 6px;
+}
+
+.content h3 {
+  font-size: 18px;
+  margin-top: 28px;
+}
+
+/* Paragraphs */
+.content p {
+  font-size: 16px;
+  margin-bottom: 14px;
+}
+
+/* Links */
+.content a {
+  color: #5a2ca0;
+  text-decoration: underline;
+}
+
+.content a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+/* Lists */
+.content ul,
+.content ol {
+  margin: 16px 0 20px 22px;
+}
+
+.content li {
+  margin-bottom: 6px;
+  font-size: 15px;
+}
+
+/* Callout paragraph (👉 line) */
+.content p strong {
+  font-weight: bold;
+}
+
+/* Article box look */
+article {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  padding: 28px 32px;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03);
+}
+
+/* Header link */
+.site-header {
+  max-width: 820px;
+  margin: 20px auto 0;
+  padding: 0 20px;
+}
+
+.site-header .logo {
+  font-weight: bold;
+  text-decoration: none;
+  color: #5a2ca0;
+}
+
+/* Footer */
+.site-footer {
+  max-width: 820px;
+  margin: 60px auto 30px;
+  padding: 0 20px;
+  font-size: 13px;
+  color: #666;
+  text-align: center;
+}
